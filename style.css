@@ -1,3 +1,8 @@
+/** {
+  outline: 1px solid red;
+}
+*/
+
 .navbar {
   position: sticky;
   top: 0px;
@@ -72,4 +77,48 @@
 .projects .container .logo img {
   height: auto;
   width: 100%;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+footer .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer .footer-logo {
+  height: 160px;
+  width: 160px;
+}
+
+footer .footer-logo img {
+  height: auto;
+  width: 100%;
+}
+
+footer ul {
+  color: white;
+  /*font-size: 13px;*/
+}
+
+footer .copyright hr  {
+  background-color: white;
+  opacity: 0.5;
+}
+
+footer .copyright {
+  color: white;
+  opacity: 0.5;
+}
+
+footer i {
+  color: white;
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 2px;
 }
