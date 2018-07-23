@@ -1,0 +1,48 @@
+.jumbotron {
+  position: relative;
+  height: 450px;
+  background-image: url(img/header_bgimage.jpg);
+  background-attachment: fixed;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color:white;
+  border-radius: 0px;
+}
+
+.jumbotron h3 {
+  padding-top: 150px;
+}
+
+.jumbotron span {
+  color: orange;
+}
+
+.jumbotron p {
+  padding-top: 20px;
+  color: orange;
+}
+
+.technology {
+  background-color: lightgray;
+}
+
+.technology img {
+  width: 160px;
+  height: 160px;
+}
+
+.technology .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.technology .container .row {
+  padding-top: 50px;
+}
+
+.technology .container .row .col-md-3 h6 {
+  padding-top: 50px;
+}
