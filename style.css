@@ -1,3 +1,9 @@
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+}
+
 .jumbotron {
   position: relative;
   height: 450px;
@@ -45,4 +51,25 @@
 
 .technology .container .row .col-md-3 h6 {
   padding-top: 50px;
+}
+
+.projects .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.projects .container h5 {
+  padding-bottom: 30px;
+}
+
+.projects .container .logo {
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.projects .container .logo img {
+  height: auto;
+  width: 100%;
 }
